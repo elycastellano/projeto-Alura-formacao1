@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Book Library</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+</head>
+
+<body>
+    <header>
+        <div class=".title">
+            <h1>Sistema Biblioteca</h1>
+        </div>
+    </header>
+   
+    <main>
+
+        <section>
+            <h2>Books:</h2>
+
+            <table id="mainTable">
+                <thead>
+                    <tr>
+                        <th>ISSN</th>
+                        <th>Name</th>
+                        <th>year</th>
+                    </tr>
+                </thead>
+                <tbody id="mainList">
+                    <!-- <tr>
+                        <td class="infoISSN"></td>
+                        <td class="infoNAME"></td>
+                        <td class="infoYEAR"></td>
+                    </tr> -->
+                </tbody>
+
+            </table>
+          </section>  
+
+        <section>
+            <h3>Serch Online:</h3>
+
+            <p>Tool for search for DB</p>
+            <button id="searchBook">External Search!</button>
+        </section>
+
+        <section>
+            <h3>Save Online</h3>
+            <button id="saveBook">External Save!</button>
+        </section>
+    </main>
+
+    <section>
+        <form id="mainForm">
+
+            <div>
+                <label>ISSN</label>
+                <input type="text" name="ISSN" placeholder="digit the ISSN">
+            </div>
+
+            <div>
+                <label>Name</label>
+                <input type="text" name="name" placeholder="digit the name">
+            </div>
+
+            <div>
+                <label>Year</label>
+                <input type="text" name="year" placeholder="digit the year">
+            </div>
+
+            <button id="buttonForm">Add</button>
+            
+        </form>
+    </section>
+
+
+
+    <script src="js/jquery-3.5.0.js"></script>
+    <script src="js/base.js"></script>
+    <script src="js/functions.js"></script>
+    
+
+</body>
+
+</html>

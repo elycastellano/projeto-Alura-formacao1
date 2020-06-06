@@ -1,0 +1,60 @@
+
+header h1{
+	font-size: 2.5em;
+	vertical-align:	middle;
+	margin: 20px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+h3 {
+	margin: 5px;
+}
+
+section{
+	margin: 2em 0.5em;
+	overflow: hidden;
+}
+
+
+table{
+	width: 100%;
+	margin-bottom : .5em;
+	table-layout: fixed;
+	margin: 15px 15px 15px 15px;
+
+}
+
+td, th {
+	padding: .3em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+}
+
+button{
+	padding: .3em 0.7em;
+	border: 0;
+	border-bottom: 3px solid;
+	font-size: 0.7em;
+	cursor: pointer;
+	margin: 0;
+	margin-top: 3px;
+	color: #fff;
+	background-color:#038109;
+	border-color: #044c04;
+	width: 20%;
+    display: block;
+    clear: both;
+    margin: 10px 10px;
+
+}
